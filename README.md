@@ -27,8 +27,9 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-# O codigo 
+# O código 
 
+```
 let nomeChamp = prompt("Digite o nome do herói:");
 let xpChamp = prompt("Digite a quantidade de XP do herói:");
 let nivelChamp;
@@ -61,6 +62,8 @@ if (xpChamp < 1000) {
     nivelChamp = "Radiante";
     console.log("Olá, " + nomeChamp + " você está no nível de " + nivelChamp + "!");
 }
+
+```
 
 
 
